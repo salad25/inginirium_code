@@ -1,0 +1,66 @@
+#include <windows.h> 
+#include <iostream> 
+using namespace std; 
+void space(int i)
+{
+for (int k = 0; k < i; k++) cout << ' ';
+}
+void symbol(int i)
+{
+for (int k = 0; k < i; k++)
+cout << '*';
+}
+void line_break(int i)
+{
+for (int k = 0; k < i; k++) 
+cout << endl;
+}
+int main()
+{
+ int t=0;
+ while(t==0)
+ {
+ symbol(1);
+ space(2);
+ symbol(1);
+ space(2);
+ symbol(1);
+ line_break(1); 
+ space(1);
+ symbol(1);
+ space(2);
+ symbol(1);
+ space(2);
+ symbol(1);
+ line_break(1); 
+ symbol(1);
+ space(2);
+ symbol(1);
+ space(2);
+ symbol(1);
+ Sleep(50);
+ system("cls");
+ space(1);
+ symbol(1);
+ space(2);
+ symbol(1);
+ space(2);
+ symbol(1);
+ line_break(1); 
+ symbol(1);
+ space(2);
+ symbol(1);
+ space(2);
+ symbol(1);
+ line_break(1);
+ space(1); 
+ symbol(1);
+ space(2);
+ symbol(1);
+ space(2);
+ symbol(1);
+ Sleep(50);
+ system("cls"); 
+}
+system("pause"); return 0;
+}
