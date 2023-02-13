@@ -1,0 +1,99 @@
+#include <windows.h> 
+#include <iostream> 
+#include<conio.h>
+using namespace std; 
+void space(int i)
+{
+for (int k = 0; k < i; k++) cout << ' ';
+}
+void symbol(int i)
+{
+for (int k = 0; k < i; k++)
+cout << '*';
+}
+void line_break(int i)
+{
+for (int k = 0; k < i; k++) 
+cout << endl;
+}
+void ball(int i)
+{
+for (int k = 0; k < i; k++)
+cout << "{}";
+}
+void mac(int i)
+{
+for (int k = 0; k < i; k++)
+cout << "&";
+}
+void tab(int i)
+{
+for (int k = 0; k < i; k++)
+cout << "||";
+}
+
+int main()
+{
+                                                                                                                                                                                       
+ space(2);
+ symbol(1);
+ Sleep(300);
+ space(3);
+ symbol(1);
+ Sleep(300);
+ line_break(1); 
+ Sleep(900);
+ space(1);
+ symbol(3);
+ Sleep(300);
+ space(1);
+ symbol(3);
+ Sleep(300);
+ line_break(1); 
+ Sleep(900);
+ symbol(9);
+ Sleep(300);
+ line_break(1); 
+ Sleep(900);
+ symbol(2);
+ ball(1);
+ symbol(1);
+ ball(1);
+ symbol(2);
+ Sleep(300);
+ line_break(1); 
+ Sleep(900);
+ symbol(4);
+ mac(1);
+ symbol(5);
+ Sleep(300);
+ space(6);
+ symbol(4);
+ line_break(1); 
+ Sleep(900);
+ symbol(19);
+ Sleep(300);
+ line_break(1); 
+ Sleep(900);
+ symbol(15);
+ Sleep(300);
+ line_break(1); 
+ Sleep(900);
+ symbol(1);
+ tab(1);
+ symbol(1);
+ Sleep(300);
+ space(3);
+ symbol(1);
+ tab(1);
+ symbol(1);
+ Sleep(300);
+ 
+ line_break(1); 
+ Sleep(900);
+
+ 
+ system("pause");
+  getch();
+ return 0;
+}
